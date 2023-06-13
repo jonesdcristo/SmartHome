@@ -7,9 +7,11 @@ import { getAuth } from 'firebase/auth';
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
 const firebaseConfig = {
   apiKey: "AIzaSyDsjIe5Ov25pVesIPNn2BTkF5HZulRBBOs",
   authDomain: "login-smarthome-1968d.firebaseapp.com",
+  databaseURL: "https://login-smarthome-1968d-default-rtdb.firebaseio.com",
   projectId: "login-smarthome-1968d",
   storageBucket: "login-smarthome-1968d.appspot.com",
   messagingSenderId: "20163368291",

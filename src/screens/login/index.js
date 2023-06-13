@@ -18,7 +18,7 @@ export default function Login(){
         signInWithEmailAndPassword(auth, userMail, userPass)
         .then((userCredential) => {
             const user = userCredential.user;
-            navigation.navigate('Home');
+            navigation.navigate('Quarto');
             //alert('Login Efetuado...');
             console.log(user);
         })
